@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Homework</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -20,7 +20,20 @@
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search images..."
+        />
+        <button class="search-button">Search</button>
+      </form>
+
+      <span class="loader hidden"></span>
+
+      <div id="gallery" class="gallery"></div>
+    </main>
 
     <script type="module" src="./main.js"></script>
   </body>
